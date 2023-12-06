@@ -1,0 +1,78 @@
+h1 {
+    color: aqua;
+    background-color: burlywood;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p {
+    color: blueviolet;
+    text-align: left;
+    line-height: 30P;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px;
+}
+
+p.error {
+    color: brown;
+}
+
+.rouge {
+    color: darkgoldenrod;
+}
+
+#content {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+div p {
+    color: purple;
+}
+
+ul {
+    border-width: 4px;
+    border-style: solid;
+    border-color: cadetblue;
+    border: 4px solid cadetblue;
+    border-bottom: 4px solid cadetblue;
+    border-left: 8px dashed cadetblue;
+}
+
+li {
+    list-style-type: none;
+    text-shadow: 2px 2px rgb(255, 182, 193);
+}
+
+a[href*="thenetninja"] {
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href*="google"] {
+    background-color: rgb(56, 254, 7);
+    color: rgb(250, 164, 6);
+    border: 2px solid blue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div {
+    color: fuchsia;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
